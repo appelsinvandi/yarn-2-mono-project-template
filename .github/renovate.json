@@ -2,7 +2,8 @@
   "timezone": "Europe/Copenhagen",
   "extends": [
     ":automergeBranch",
-    ":automergeMinor",
+    ":automergePatch",
+    ":automergeStableNonMajor",
     ":disableDependencyDashboard",
     ":disableRateLimiting",
     ":ignoreModulesAndTests",
