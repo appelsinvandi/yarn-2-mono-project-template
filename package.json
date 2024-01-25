@@ -6,10 +6,10 @@
   ],
   "packageManager": "yarn@4.0.2",
   "scripts": {
-    "postinstall": "husky install"
+    "postinstall": "husky"
   },
   "devDependencies": {
-    "husky": "^8.0.3",
+    "husky": "^9.0.2",
     "lint-staged": "^15.2.0",
     "prettier": "^3.2.4"
   }
