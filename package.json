@@ -1,16 +1,12 @@
 {
   "name": "yarn-2-mono-project-template",
-  "workspaces": [
-    "apps/*",
-    "libs/*"
-  ],
+  "workspaces": ["apps/*", "libs/*"],
   "packageManager": "yarn@4.1.1",
   "scripts": {
     "postinstall": "husky"
   },
   "devDependencies": {
-    "husky": "^9.0.11",
-    "lint-staged": "^15.2.2",
-    "prettier": "^3.2.5"
+    "@biomejs/biome": "^1.7.0",
+    "husky": "^9.0.11"
   }
 }
