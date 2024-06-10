@@ -1,7 +1,7 @@
 {
   "name": "yarn-2-mono-project-template",
   "workspaces": ["apps/*", "libs/*"],
-  "packageManager": "yarn@4.2.2",
+  "packageManager": "yarn@4.3.0",
   "scripts": {
     "postinstall": "husky"
   },
